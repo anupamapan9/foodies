@@ -20,7 +20,8 @@ const Container = () => {
     }, [url])
     return (
         <section className='lg:px-20'>
-            <div className='flex justify-center my-10'>
+            <h2 className='text-center text-indigo-500 mt-10 font-semibold text-3xl mb-3'>Search Food By name</h2>
+            <div className='flex justify-center mb-10'>
                 <form onSubmit={searchFood}>
                     <input type="text" className='border-2 outline-indigo-900 border-indigo-500 mr-4' name="food" id="food" />
                     <input type="submit" className='bg-indigo-600 px-2 py-1 text-white cursor-pointer' value="Search" />
